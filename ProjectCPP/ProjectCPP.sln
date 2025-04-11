@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectCPP", "ProjectCPP.vcxproj", "{31C53BDD-D1D7-4F52-A685-82254943802D}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TOYPROJECT01", "TOYPROJECT01", "{D4200CD3-FD6A-4F3C-B8F3-6A9DBAA81B26}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToyProject01", "..\ToyProject01\ToyProject01.vcxproj", "{48CD4051-62F2-4C4D-A28C-A9ADF37EE0F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CH02", "CH02", "{5FA7253F-A74F-4E70-BF73-7B962864A184}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch02", "..\Ch02\Ch02.vcxproj", "{AE249A3A-3D20-419D-8EE0-0078D61B2C4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{48CD4051-62F2-4C4D-A28C-A9ADF37EE0F8}.Release|x64.Build.0 = Release|x64
 		{48CD4051-62F2-4C4D-A28C-A9ADF37EE0F8}.Release|x86.ActiveCfg = Release|Win32
 		{48CD4051-62F2-4C4D-A28C-A9ADF37EE0F8}.Release|x86.Build.0 = Release|Win32
+		{AE249A3A-3D20-419D-8EE0-0078D61B2C4C}.Debug|x64.ActiveCfg = Debug|x64
+		{AE249A3A-3D20-419D-8EE0-0078D61B2C4C}.Debug|x64.Build.0 = Debug|x64
+		{AE249A3A-3D20-419D-8EE0-0078D61B2C4C}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE249A3A-3D20-419D-8EE0-0078D61B2C4C}.Debug|x86.Build.0 = Debug|Win32
+		{AE249A3A-3D20-419D-8EE0-0078D61B2C4C}.Release|x64.ActiveCfg = Release|x64
+		{AE249A3A-3D20-419D-8EE0-0078D61B2C4C}.Release|x64.Build.0 = Release|x64
+		{AE249A3A-3D20-419D-8EE0-0078D61B2C4C}.Release|x86.ActiveCfg = Release|Win32
+		{AE249A3A-3D20-419D-8EE0-0078D61B2C4C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{273339F4-9373-4820-8C7A-6BC97B638DFA} = {A1030E94-4619-4748-9B27-92006C559880}
 		{48CD4051-62F2-4C4D-A28C-A9ADF37EE0F8} = {D4200CD3-FD6A-4F3C-B8F3-6A9DBAA81B26}
+		{AE249A3A-3D20-419D-8EE0-0078D61B2C4C} = {5FA7253F-A74F-4E70-BF73-7B962864A184}
 	EndGlobalSection
 EndGlobal

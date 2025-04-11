@@ -44,7 +44,7 @@ int main()
 	// 이름 공간의 첫번째 예제.
 	// 같은 이름의 변수를 사용하는 문법이 추가되었다.
 	// 사용법 : 이름::변수;
-
+	
 	std::cin >> ACOM::goods;
 	std::cout << "A회사의 상품 이름 : " << ACOM::goods << std::endl;
 			

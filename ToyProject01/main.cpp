@@ -11,15 +11,58 @@
 * 2. 이름공간에 쓰여진 이름을 통해서 코드를 분류할 수 있다.
 */
 
+/*
+* 목표 : 플레이어의 이동을 참조자를 사용하여 함수화 해보기
+*/
+
 #include <iostream>
 #include <Windows.h> // 커서의 위치를 옮기는 함수 SetCoursorPosition
 #include <conio.h>
 namespace ConsoleUtils
-{
+{ 
 	void GoToXY(int x, int y)
 	{
 		COORD pos = { x,y };
 		SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
+	}
+
+	void InputPlayerKey(int& x, int& y)
+	{
+		if (_kbhit())
+		{
+			if (GetAsyncKeyState(VK_LEFT)) // 키보드 '<-' 눌렀을때
+			{
+				x--;
+				if (x < 0)
+				{
+					x = 0;
+				}
+			}
+			if (GetAsyncKeyState(VK_RIGHT))
+			{
+				x++;
+				if (x > 30)
+				{
+					x = 30;
+				}
+			}
+			if (GetAsyncKeyState(VK_UP))
+			{
+				y--;
+				if (y < 0)
+				{
+					y = 0;
+				}
+			}
+			if (GetAsyncKeyState(VK_DOWN))
+			{
+				y++;
+				if (y > 30)
+				{
+					y = 30;
+				}
+			}
+		}
 	}
 }
 
@@ -54,14 +97,24 @@ int main()
 			ConsoleUtils::GoToXY(10,10);
 			std::cout << "플레이어의 정보";
 			ConsoleUtils::GoToXY(10,11);
-			std::cout << "플레이어의 이름 :"<<name;
+			std::cout << "플레이어의 이름 :"<<name;			
 			_getch();
 		}
 		else
 		{
-			
+			break;
 		}
 		system("cls");
 	}
+	
+	int x = 0, y = 0;
 
+	while (true) // 플레이어의 이동 구현
+	{
+		system("cls");
+		ConsoleUtils::InputPlayerKey(x, y);
+		std::cout << "플레이어의 좌표 : " << "[" << x << "," << y << "]" << std::endl;
+		ConsoleUtils::GoToXY(x, y);
+		std::cout << "★";
+	}
 }
