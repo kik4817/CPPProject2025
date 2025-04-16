@@ -28,6 +28,8 @@
 // 권장하는 사용 방법
 
 #include "Game.h"
+#include "Item.h"
+#include "Player.h"
 
 void NameSpaceExample()
 {

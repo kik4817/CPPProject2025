@@ -1,5 +1,8 @@
 #pragma once
 
 #include <iostream>
-#include "Item.h"
-#include "Player.h"
+
+using std::cout;
+using std::endl;
+using std::cin;
+using std::string;

@@ -1,5 +1,19 @@
 ﻿  ITEM.CPP
-  main.cpp
+C:\Users\Administrator\Desktop\CPPProject2025\Ch04\Player.h(14,9): error C3646: 'name': 알 수 없는 재정의 지정자입니다.
+  (소스 파일 'ITEM.CPP'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CPPProject2025\Ch04\Player.h(14,2): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'ITEM.CPP'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CPPProject2025\Ch04\Player.h(21,9): error C3646: 'ReturnByTypeName': 알 수 없는 재정의 지정자입니다.
+  (소스 파일 'ITEM.CPP'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CPPProject2025\Ch04\Player.h(21,25): error C2059: 구문 오류: '('
+  (소스 파일 'ITEM.CPP'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CPPProject2025\Ch04\Player.h(21,27): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+  (소스 파일 'ITEM.CPP'을(를) 컴파일하는 중)
+  
   Player.cpp
+  main.cpp
   코드를 생성하고 있습니다...
-  Ch04.vcxproj -> C:\Users\Administrator\Desktop\CPPProject2025\ProjectCPP\x64\Debug\Ch04.exe
