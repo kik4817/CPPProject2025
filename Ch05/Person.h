@@ -46,7 +46,7 @@ struct Person
 	Person() {}
 
 	// 가장 간단한 문자열 초기화 방식
-	Person(int age, const string& name,GENDER type) : age(age), sName(name), type(type) {}
+	Person(int age, const string& name) : age(age), sName(name) {}
 
 	// 위에는 컴퓨터가 읽는데 빠름, 아래쪽은 컴퓨터가 읽는데 느림
 	
@@ -56,7 +56,7 @@ struct Person
 	}*/ 
 
 	// 생성자 오버로딩
-	Person(int age, const char* str) : age(age)
+	Person(int age, const char* str) : age(age), type(type)
 	{
 		// 메모리 공간을 직접 생성해줘야 한다. 앞에 this
 		// name = malloc(sizeof(char) * (strlen(str) + 1));

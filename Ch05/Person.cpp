@@ -18,5 +18,5 @@ void Person::Show() const
 {
 	cout << "나이 : " << age << endl;
 	cout << "이름 : " << name << endl;
-	cout << "성별 : " << type << endl;
+	//cout << "성별 : " << type << endl;
 }

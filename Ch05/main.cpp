@@ -54,7 +54,7 @@ int main()
 	//Person human1 = { 20 }; // human1이라는 공간에 데이터를 복사해서 넣어줘야한다.
 	Person human1(20, "모험가"); // const char
 	Person human1Clone;
-	Person human2(30, "용병", BOY);
+	Person human2(30, "용병");
 	human1Clone.Clone(human1);
 	human1.Show();
 	human1Clone.Show();
