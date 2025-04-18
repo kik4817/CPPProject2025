@@ -11,7 +11,7 @@ void Enemy::ChangeImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
 	}
 }
 
-void Enemy::ShowImage(int& posX, int& posY)
+void Enemy::ShowImage()
 {
 	for (int y = 0;y < IMAGEHEIGHT;y++)
 	{
@@ -29,7 +29,7 @@ void Enemy::ShowImage(int& posX, int& posY)
 
 bool Enemy::IsBattle(int x, int y)
 {
-	if (x <= 10)
+	if (posX <= 15)
 	{
 		return true;
 	}
@@ -39,7 +39,7 @@ bool Enemy::IsBattle(int x, int y)
 	}
 }
 
-void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], int& posX, int& posY)
+void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
 {
 	ChangeImage(Image);
 
@@ -50,14 +50,14 @@ void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], int& posX, i
 
 	if (IsBattle(posX, posY)) // true 일때 전투상태
 	{
-		posX = 10; // 10 대신에 상수로 표현 가능하다.
+		posX = 15; // 10 대신에 상수로 표현 가능하다.
 	}
 	else
 	{
 		// 전국 마다 특별한 행동을 하는 함수 호출
 		posX--;
 	}
-	ShowImage(posX, posY);
+	ShowImage();
 
 	//if (posX <= 10)
 	//	posX = 10;
@@ -68,4 +68,23 @@ void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], int& posX, i
 	//	// Y를 바꾸면 점프 표현 가능
 	//	posX--;
 	//ShowImage(posX, posY);
+}
+
+void Enemy::Attacked(int damage)
+{
+	// 데미지 감소 규칙
+	damage = damage - DEF;
+	if (damage <= 0)
+	{
+		damage = 1;
+	}
+
+	// HP가 공격력 만큼 데미지를 준다
+	HP -= damage; 
+
+	// HP가 0보다 작거나 같으면 몬스터 죽었다는 사실을 알려야한다. - Bool isDeath
+	if (HP <= 0)
+	{
+		isDeath = true;
+	}
 }
