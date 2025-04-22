@@ -1,0 +1,6 @@
+﻿  Enemy.cpp
+  main.cpp
+C:\Users\Administrator\Desktop\CPPProject2025\Ch07\main.cpp(74,12): warning C4101: 'player1' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
+main.obj : error LNK2019: "public: void __cdecl Money::Use(void)" (?Use@Money@@QEAAXXZ)main 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\Administrator\Desktop\CPPProject2025\ProjectCPP\x64\Debug\Ch07.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

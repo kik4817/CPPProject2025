@@ -53,7 +53,7 @@ int main()
 
 	Player player;
 	Enemy enemy;
-
+	
 	player.AttackedBy(100);
 	player.Recovery(50);
 	enemy.AttackedBy(100);
