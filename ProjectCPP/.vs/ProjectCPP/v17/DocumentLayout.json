@@ -43,8 +43,7 @@
               "RelativeToolTip": "..\\Ch08\\Monster.cpp",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwDMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-23T08:02:09.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T08:02:09.351Z"
             },
             {
               "$type": "Document",
@@ -56,8 +55,7 @@
               "RelativeToolTip": "..\\Ch08\\Monster.h",
               "ViewState": "AgIAAEsAAAAAAAAAAAAawGUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-23T07:32:41.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T07:32:41.506Z"
             },
             {
               "$type": "Document",
@@ -69,8 +67,7 @@
               "RelativeToolTip": "..\\Ch08\\Police.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-23T07:29:27.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T07:29:27.074Z"
             },
             {
               "$type": "Document",
@@ -82,8 +79,7 @@
               "RelativeToolTip": "..\\Ch08\\Book.h",
               "ViewState": "AgIAAB8AAAAAAAAAAAAqwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-23T07:05:59.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T07:05:59.602Z"
             },
             {
               "$type": "Document",
@@ -95,8 +91,7 @@
               "RelativeToolTip": "..\\Ch08\\Common.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-23T07:02:54.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T07:02:54.022Z"
             },
             {
               "$type": "Document",
@@ -106,7 +101,7 @@
               "RelativeDocumentMoniker": "..\\Ch08\\main.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPPProject2025\\Ch08\\main.cpp",
               "RelativeToolTip": "..\\Ch08\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-23T07:02:45.32Z",
               "EditorCaption": ""
@@ -121,8 +116,7 @@
               "RelativeToolTip": "..\\Ch08\\Book.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-23T07:15:26.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T07:15:26.199Z"
             }
           ]
         }
