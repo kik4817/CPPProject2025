@@ -1,24 +1,16 @@
 #pragma once
 
 #include "Common.h"
-#include "GameElement.h"
-
-class ElementType
-{
-
-};
+#include "Monster.h"
 
 class Element
 {
 protected:
-	int LV;
-	int MaxMP;
-	int MP;
 	int defaultMATK;
 	int finalMATK;
 public:
 	Element() {}
-	Element(int lv, int maxmp, int defaultMATK) : LV(lv), MaxMP(maxmp), defaultMATK(defaultMATK) {}
+	Element(int defaultmatk) : defaultMATK(defaultmatk) {}
 public:
 	virtual void MAttack();
 	void CalculatefinalMAtk();

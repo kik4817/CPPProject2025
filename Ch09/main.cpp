@@ -21,15 +21,16 @@
 #include "Common.h"
 #include "Monster.h"
 #include "MonsterHandler.h"
+#include "Element.h"
 
 int main()
 {
 	MonsterHandler monsterHandler;
-
-
+	
 	Monster slime2(1, 5);
 	Slime slime(1, 5);
 	Orc orc(2, 10);
+	
 	//slime2.Attack();
 	//slime.Attack();
 

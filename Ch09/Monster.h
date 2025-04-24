@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Common.h"
+#include "Element.h"
 
 // 몬스터(Monster) - 몬스터 조작, 관리(MonsterHandler)
  
@@ -54,12 +55,12 @@ protected:
 	int LV;
 	int defaultATK;
 	int finalATK;
-	ElementTYPE type; // 모든 몬스터 사용
+	ElementTYPE type; // 모든 몬스터 사용	
 	// ElementTYPE* type; 사용가능한 몬스터 선택
 
 public:
 	Monster() {}
-	Monster(int lv, int defaultATK) : LV(lv), defaultATK(defaultATK) {}
+	Monster(int lv, int defaultatk) : LV(lv), defaultATK(defaultatk) {}
 
 public:
 	virtual void Attack(); // 몬스터는 공격을 한다.
@@ -69,7 +70,7 @@ public:
 class Slime : public Monster
 {
 public:		
-	Slime(int lv, int defaultATK) : Monster(lv, defaultATK) {}
+	Slime(int lv, int defaultatk) : Monster(lv, defaultatk) {}
 public:
 	void Attack() override;
 };
@@ -77,7 +78,7 @@ public:
 class Orc : public Monster
 {
 public:	
-	Orc(int lv, int defaultATK) : Monster(lv, defaultATK) {}
+	Orc(int lv, int defaultatk) : Monster(lv, defaultatk) {}
 public:
 	void Attack() override;
 };

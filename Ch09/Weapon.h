@@ -24,8 +24,6 @@ public:
 	void ShowInfo();
 };
 
-
-
 class BlackSmith
 {
 private:

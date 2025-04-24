@@ -21,6 +21,7 @@ void Slime::Attack() // Monster Attack없다. 새로 정의하겠다.
 	Monster::Attack();
 	
 	cout << "슬라임의 특수 기능을 실행합니다." << endl;
+		
 }
 
 void Orc::Attack()
