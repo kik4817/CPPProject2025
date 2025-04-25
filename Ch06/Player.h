@@ -11,18 +11,18 @@
 
 using namespace std;
 
-class Player
-{
-private:
-	int HP;
-	int MaxHP;
-	bool isDeath;
-public:
-	void AttackedBy(int damage);
-	void Recovery(int heal);		
-};
-
-//class Player : public HP
+//class Player
 //{
-//
+//private:
+//	int HP;
+//	int MaxHP;
+//	bool isDeath;
+//public:
+//	void AttackedBy(int damage);
+//	void Recovery(int heal);		
 //};
+
+class Player : public HP
+{
+
+};

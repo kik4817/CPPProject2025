@@ -6,11 +6,12 @@
 class Element
 {
 protected:
+	int LV;
 	int defaultMATK;
 	int finalMATK;
 public:
 	Element() {}
-	Element(int defaultmatk) : defaultMATK(defaultmatk) {}
+	Element(int lv, int defaultmatk) : LV(lv), defaultMATK(defaultmatk) {}
 public:
 	virtual void MAttack();
 	void CalculatefinalMAtk();
@@ -19,23 +20,31 @@ public:
 class Fire : Element
 {
 public:
-	void MAttack();
+	Fire(int lv, int defaultmatk) : Element(lv, defaultmatk) {}
+public:
+	void MAttack() override;
 };
 
 class Water : Element
 {
 public:
-	void MAttack();
+	Water(int lv, int defaultmatk) : Element(lv, defaultmatk) {}
+public:
+	void MAttack() override;
 };
 
 class Wind : Element
 {
 public:
-	void MAttack();
+	Wind(int lv, int defaultmatk) : Element(lv, defaultmatk) {}
+public:
+	void MAttack() override;
 };
 
 class Earth : Element
 {
 public:
-	void MAttack();
+	Earth(int lv, int defaultmatk) : Element(lv, defaultmatk) {}
+public:
+	void MAttack() override;
 };

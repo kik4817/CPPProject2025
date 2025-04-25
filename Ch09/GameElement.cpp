@@ -1,5 +1,9 @@
 #include "GameElement.h"
 
-void GameElement::Update()
+void GameElement::MAttack()
 {
+	fire.MAttack();
+	water.MAttack();
+	wind.MAttack();
+	earth.MAttack();
 }

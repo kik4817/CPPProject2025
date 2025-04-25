@@ -1,8 +1,11 @@
-﻿  Enemy.cpp
-  HP.cpp
+﻿  Player.cpp
   main.cpp
-  Player.cpp
+C:\Users\kik48\Desktop\CPPProject2025\Ch06\Player.cpp(3,14): error C2509: 'AttackedBy': 멤버 함수를 'Player'에서 선언하지 않았습니다.
+      C:\Users\kik48\Desktop\CPPProject2025\Ch06\Player.h(25,7):
+      'Player' 선언을 참조하십시오.
+  
+C:\Users\kik48\Desktop\CPPProject2025\Ch06\Player.cpp(19,14): error C2509: 'Recovery': 멤버 함수를 'Player'에서 선언하지 않았습니다.
+      C:\Users\kik48\Desktop\CPPProject2025\Ch06\Player.h(25,7):
+      'Player' 선언을 참조하십시오.
+  
   코드를 생성하고 있습니다...
-main.obj : error LNK2019: "public: void __cdecl HP::AttackedBy(int)" (?AttackedBy@HP@@QEAAXH@Z)main 함수에서 참조되는 확인할 수 없는 외부 기호
-main.obj : error LNK2019: "public: void __cdecl HP::Recovery(int)" (?Recovery@HP@@QEAAXH@Z)main 함수에서 참조되는 확인할 수 없는 외부 기호
-C:\Users\kik48\Desktop\CPPProject2025\ProjectCPP\x64\Debug\Ch06.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.

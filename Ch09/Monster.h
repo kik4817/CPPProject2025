@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Common.h"
-#include "Element.h"
+//#include "GameElement.h"
 
 // 몬스터(Monster) - 몬스터 조작, 관리(MonsterHandler)
  
@@ -57,7 +57,7 @@ protected:
 	int finalATK;
 	ElementTYPE type; // 모든 몬스터 사용	
 	// ElementTYPE* type; 사용가능한 몬스터 선택
-
+		
 public:
 	Monster() {}
 	Monster(int lv, int defaultatk) : LV(lv), defaultATK(defaultatk) {}
