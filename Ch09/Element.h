@@ -3,7 +3,7 @@
 #include "Common.h"
 #include "Monster.h"
 
-class Element
+class Element : public Monster
 {
 protected:
 	int LV;
@@ -11,7 +11,7 @@ protected:
 	int finalMATK;
 public:
 	Element() {}
-	Element(int lv, int defaultmatk) : LV(lv), defaultMATK(defaultmatk) {}
+	Element(int lv, int defaultmatk) : Monster(lv, defaultmatk) {} //LV(lv), defaultMATK(defaultmatk) {}
 public:
 	virtual void MAttack();
 	void CalculatefinalMAtk();

@@ -130,7 +130,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="MonsterHandler.cpp" />
-    <ClCompile Include="GameElement.cpp" />
+    <ClCompile Include="SkillElement.cpp" />
     <ClCompile Include="Element.cpp" />
     <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
@@ -138,7 +138,7 @@
     <ClInclude Include="Common.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="MonsterHandler.h" />
-    <ClInclude Include="GameElement.h" />
+    <ClInclude Include="SkillElement.h" />
     <ClInclude Include="Element.h" />
     <ClInclude Include="Weapon.h" />
   </ItemGroup>

@@ -1,0 +1,4 @@
+﻿  main.cpp
+  Unit.cpp
+C:\Users\Administrator\Desktop\CPPProject2025\starcraft_\Unit.cpp(10,3): error C2146: 구문 오류: ';'이(가) 'cout' 식별자 앞에 없습니다.
+  코드를 생성하고 있습니다...
