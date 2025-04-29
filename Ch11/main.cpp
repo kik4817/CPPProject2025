@@ -33,11 +33,14 @@ int main()
 	ClassDefaultInfo();
 	Sleep(500);
 	system("cls");
-
+		
 	cout << "달리기 게임 코드" << endl; // Game Title
 
-	Runner* runA = new Player("O");
-	Runner* runB = new Runner("B");
+	// 사운드를 출력해주는 기능을 작성
+	SoundUtil::PlayBGM(_T("sound.wav"));
+
+	Runner* runA = new Player("A");
+	Runner* runB = new Enemy("B");
 	Runner* runC = new Runner();
 	Runner* runD = new Runner("D");
 

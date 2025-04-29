@@ -11,5 +11,12 @@ public:
 class ConsoleUtil
 {
 public:
-	static void GotoXY(int x, int y);
+	static void GotoXY(int x, int y);	
+};
+
+class SoundUtil
+{
+public:
+	static void PlayTitleSound(LPCWSTR filename);
+	static void PlayBGM(LPCWSTR filename);
 };
