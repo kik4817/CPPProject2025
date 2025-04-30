@@ -24,5 +24,5 @@ void SoundUtil::PlayTitleSound(LPCWSTR filename)
 
 void SoundUtil::PlayBGM(LPCWSTR filename)
 {
-    PlaySound(filename, NULL, SND_SYNC);
+    PlaySound(filename, NULL, SND_ASYNC);
 }

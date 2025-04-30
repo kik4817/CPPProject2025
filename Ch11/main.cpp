@@ -6,7 +6,8 @@
 
 #include "Base.h"
 #include "Utility.h"
-#include "Runner.h"
+//#include "Runner.h"
+#include "GameManager.h"
 
 void ClassDefaultInfo()
 {
@@ -30,50 +31,31 @@ void ClassDefaultInfo()
 
 int main()
 {
-	ClassDefaultInfo();
+
+	/*ClassDefaultInfo();
 	Sleep(500);
-	system("cls");
+	system("cls");*/
 		
-	cout << "달리기 게임 코드" << endl; // Game Title
-
-	// 사운드를 출력해주는 기능을 작성
-	SoundUtil::PlayBGM(_T("sound.wav"));
-
-	Runner* runA = new Player("A");
-	Runner* runB = new Enemy("B");
-	Runner* runC = new Runner();
-	Runner* runD = new Runner("D");
-
+	GameManager game;
+	game.Play();
+	
+	//cout << "달리기 게임 코드" << endl; // Game Title
+		
 	//int runA = 0; // 1번 주자의 현재 이동 거리
 	//int runB = 0;
 	//int runC = 0;
 	//int runD = 0;
 
-	//bool endA = false;
-	//bool endB = false;
-	//bool endC = false;
-	//bool endD = false;
-
-	string line = "========================";
-	int endline = line.length();
-
-	while (true)
-	{
-		Sleep(1000); // 1초 마다 게임을 업데이트
-		system("cls"); // 화면을 지운다
-
-		/*runA += RandomUtil::GetRandomInt(5);
+	/*runA += RandomUtil::GetRandomInt(5);
 		runB += RandomUtil::GetRandomInt(5);
 		runC += RandomUtil::GetRandomInt(5);
 		runD += RandomUtil::GetRandomInt(5);*/
 
-		cout << line << endl;
-		runA->Run();
-		runB->Run();
-		runC->Run();
-		runD->Run();
-		cout << line << endl;
-
+	//bool endA = false;
+	//bool endB = false;
+	//bool endC = false;
+	//bool endD = false;
+	
 		/*cout << line << endl;
 		for (int i = 0; i < runA; i++)
 		{
@@ -119,13 +101,6 @@ int main()
 			cout << "경기 종료" << endl;
 			break;
 		}*/
-
-		if (runA->CheckEndLine(endline) || runB->CheckEndLine(endline) || runC->CheckEndLine(endline) || runD->CheckEndLine(endline))
-		{
-			cout << "경기 종료" << endl;
-			break;
-		}
-
 	}
 
 	/*if (endA)
@@ -143,22 +118,5 @@ int main()
 	if (endD)
 	{
 		cout << "D가 1등을 했습니다." << endl;
-	}*/
-
-	if(runA->CheckEndLine(endline))
-	{
-		cout << "A가 1등을 했습니다." << endl;
-	}
-	if (runB->CheckEndLine(endline))
-	{
-		cout << "B가 1등을 했습니다." << endl;
-	}
-	if (runC->CheckEndLine(endline))
-	{
-		cout << "C가 1등을 했습니다." << endl;
-	}
-	if (runD->CheckEndLine(endline))
-	{
-		cout << "D가 1등을 했습니다." << endl;
-	}
-}
+	}*/	
+//}
