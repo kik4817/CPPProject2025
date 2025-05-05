@@ -57,7 +57,7 @@ protected:
 	int finalATK;
 	ElementTYPE type; // 모든 몬스터 사용	
 	// ElementTYPE* type; 사용가능한 몬스터 선택
-	SkillElement skill;
+	//SkillElement skill;
 public:
 	Monster() {}
 	Monster(int lv, int defaultatk) : LV(lv), defaultATK(defaultatk) {}
@@ -70,9 +70,9 @@ public:
 class Slime : public Monster
 {
 protected:
-	SkillElement Skill;
+	//SkillElement Skill;
 public:		
-	Slime(int lv, int defaultatk, SkillElement skill) : Monster(lv, defaultatk), Skill(skill) {}
+	Slime(int lv, int defaultatk) : Monster(lv, defaultatk) {}
 public:
 	void Attack() override;
 };

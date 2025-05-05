@@ -27,7 +27,7 @@ int DataHandler::LoadItems(const std::string& filename, Item items[])
         int amount;
         
         // µ¥ÀÌÅÍ ÆÄ½Ì
-        if (iss >> index >> name >> price>>typeCount>>amount)
+        if (iss >> index >> name >> price >> typeCount >> amount)
         {
             //items[itemCount] = Item(index, name, price);
             //itemCount++;

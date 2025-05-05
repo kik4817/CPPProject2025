@@ -12,7 +12,7 @@ void Shop::ShowItems()
 	for (int i = 0;i < count;i++)
 	{
 		std::cout << items[i].index << "\t" << items[i].name 
-			<< "\t" << items[i].price << "coin" 
+			<< "\t" << items[i].price << "coin"  
 			<< "\t타입: "<<items[i].dataType.type
 			<<"\t수치: "<<items[i].dataType.amount
 			<<std::endl;

@@ -38,7 +38,7 @@ void GameManager::ShopPhase()
 void GameManager::GamePhase()
 {
 	// 사운드를 출력해주는 기능을 작성
-	SoundUtil::PlayBGM(_T("sound.wav"));
+	//SoundUtil::PlayBGM(_T("sound.wav"));
 
 	//Player* runA = new Player("A");
 	Runner* runB = new Enemy("B");

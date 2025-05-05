@@ -10,23 +10,3 @@ void Element::CalculatefinalMAtk()
 {	
 	finalMATK = LV * defaultMATK;
 }
-
-void Fire::MAttack()
-{
-	Element::MAttack();
-}
-
-void Water::MAttack()
-{
-	Element::MAttack();
-}
-
-void Wind::MAttack()
-{
-	Element::MAttack();
-}
-
-void Earth::MAttack()
-{
-	Element::MAttack();
-}

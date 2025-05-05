@@ -20,7 +20,7 @@ public:
 	bool LoadItems(const std::string& filename);
 	void ShowItems();
 
-	Item GetItems(int index)
+	Item& GetItems(int index)
 	{
 		return items[index];
 	}

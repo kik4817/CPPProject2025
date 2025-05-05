@@ -33,23 +33,23 @@ struct ItemDataType
 	{
 		if (typeCount == 0)
 		{
-			type == UpgradeType::STR;
+			type = UpgradeType::STR;
 		}
 		else if (typeCount == 1)
 		{
-			type == UpgradeType::DEX;
+			type = UpgradeType::DEX;
 		}
 		else if (typeCount == 2)
 		{
-			type == UpgradeType::INTEL;
+			type = UpgradeType::INTEL;
 		}
 		else if (typeCount == 3)
 		{
-			type == UpgradeType::LUK;
+			type = UpgradeType::LUK;
 		}
 		else
 		{
-			type == NONE;
+			type = UpgradeType::NONE;
 		}
 	}
 };

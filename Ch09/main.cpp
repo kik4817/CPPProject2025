@@ -21,7 +21,6 @@
 #include "Common.h"
 #include "Monster.h"
 #include "MonsterHandler.h"
-#include "Element.h"
 
 int main()
 {

@@ -131,7 +131,6 @@
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="MonsterHandler.cpp" />
     <ClCompile Include="SkillElement.cpp" />
-    <ClCompile Include="Element.cpp" />
     <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -139,7 +138,6 @@
     <ClInclude Include="Monster.h" />
     <ClInclude Include="MonsterHandler.h" />
     <ClInclude Include="SkillElement.h" />
-    <ClInclude Include="Element.h" />
     <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

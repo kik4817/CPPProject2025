@@ -1,11 +1,4 @@
-﻿  Player.cpp
-  main.cpp
-C:\Users\kik48\Desktop\CPPProject2025\Ch06\Player.cpp(3,14): error C2509: 'AttackedBy': 멤버 함수를 'Player'에서 선언하지 않았습니다.
-      C:\Users\kik48\Desktop\CPPProject2025\Ch06\Player.h(25,7):
-      'Player' 선언을 참조하십시오.
-  
-C:\Users\kik48\Desktop\CPPProject2025\Ch06\Player.cpp(19,14): error C2509: 'Recovery': 멤버 함수를 'Player'에서 선언하지 않았습니다.
-      C:\Users\kik48\Desktop\CPPProject2025\Ch06\Player.h(25,7):
-      'Player' 선언을 참조하십시오.
-  
+﻿  HP.cpp
+  Player.cpp
   코드를 생성하고 있습니다...
+  Ch06.vcxproj -> C:\Users\kik48\Desktop\CPPProject2025\ProjectCPP\x64\Debug\Ch06.exe
