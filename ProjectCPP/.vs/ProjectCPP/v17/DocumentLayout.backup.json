@@ -1,12 +1,68 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\CPPProject2025\\ProjectCPP\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7039B5F-A182-4A16-BEC0-73C3D6493C63}|..\\storyteller\\storyteller.vcxproj|C:\\Users\\Administrator\\Desktop\\CPPProject2025\\storyteller\\Console.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7039B5F-A182-4A16-BEC0-73C3D6493C63}|..\\storyteller\\storyteller.vcxproj|C:\\Users\\Administrator\\Desktop\\CPPProject2025\\storyteller\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7039B5F-A182-4A16-BEC0-73C3D6493C63}|..\\storyteller\\storyteller.vcxproj|C:\\Users\\Administrator\\Desktop\\CPPProject2025\\storyteller\\ImageModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Console.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPPProject2025\\storyteller\\Console.h",
+              "RelativeDocumentMoniker": "..\\storyteller\\Console.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPPProject2025\\storyteller\\Console.h",
+              "RelativeToolTip": "..\\storyteller\\Console.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-06T08:44:01.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageModel.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPPProject2025\\storyteller\\ImageModel.h",
+              "RelativeDocumentMoniker": "..\\storyteller\\ImageModel.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPPProject2025\\storyteller\\ImageModel.h",
+              "RelativeToolTip": "..\\storyteller\\ImageModel.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-06T08:39:28.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPPProject2025\\storyteller\\main.cpp",
+              "RelativeDocumentMoniker": "..\\storyteller\\main.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPPProject2025\\storyteller\\main.cpp",
+              "RelativeToolTip": "..\\storyteller\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-06T08:37:54.656Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
