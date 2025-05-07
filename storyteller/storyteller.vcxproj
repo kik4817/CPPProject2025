@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="Actor.cpp" />
     <ClCompile Include="Console.cpp" />
+    <ClCompile Include="GameStart.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Actor.h" />
     <ClInclude Include="Console.h" />
+    <ClInclude Include="GameStart.h" />
     <ClInclude Include="Image.h" />
     <ClInclude Include="ImageModel.h" />
   </ItemGroup>

@@ -5,7 +5,7 @@ void GameManager::ShowTitle()
 	// 타이틀 먼저 보여주는 코드 실행
 	ConsoleUtil::GotoXY(30, 0);
 	cout << "달리기 게임" << endl;
-	//SoundUtil::PlayTitleSound(_T("sound.wav")); // 사운드 출력이 튼날 때 까지 다음 코드로 넘어가지 않는다
+	SoundUtil::PlayTitleSound(_T("sound.wav")); // 사운드 출력이 튼날 때 까지 다음 코드로 넘어가지 않는다
 }
 
 void GameManager::ShopPhase()
@@ -38,7 +38,7 @@ void GameManager::ShopPhase()
 void GameManager::GamePhase()
 {
 	// 사운드를 출력해주는 기능을 작성
-	//SoundUtil::PlayBGM(_T("sound.wav"));
+	SoundUtil::PlayBGM(_T("sound.wav"));
 
 	//Player* runA = new Player("A");
 	Runner* runB = new Enemy("B");

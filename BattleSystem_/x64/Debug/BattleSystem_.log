@@ -1,10 +1,10 @@
 ﻿  Common.cpp
-C:\Users\kik48\Desktop\CPPProject2025\BattleSystem_\Common.cpp(5,16): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\kik48\Desktop\CPPProject2025\BattleSystem_\Common.cpp(5,18): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\Administrator\Desktop\CPPProject2025\BattleSystem_\Common.cpp(5,16): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\Administrator\Desktop\CPPProject2025\BattleSystem_\Common.cpp(5,18): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
   Enemy.cpp
   GameManager.cpp
   Image.cpp
   main.cpp
   Player.cpp
   코드를 생성하고 있습니다...
-  BattleSystem_.vcxproj -> C:\Users\kik48\Desktop\CPPProject2025\ProjectCPP\x64\Debug\BattleSystem_.exe
+  BattleSystem_.vcxproj -> C:\Users\Administrator\Desktop\CPPProject2025\ProjectCPP\x64\Debug\BattleSystem_.exe
