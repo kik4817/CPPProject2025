@@ -22,5 +22,5 @@ public:
 		GetConsoleCursorInfo(hConsole, &cursorinfo);
 		cursorinfo.bVisible = show;
 		SetConsoleCursorInfo(hConsole, &cursorinfo);
+	}
 };
-
